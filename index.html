@@ -5,16 +5,151 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <style>
-        ul {
-          list-style-type: upper-roman;
-        }
-    </style>
+    
+    <link rel="stylesheet" href="./styles/style.css">
 </head>
 <body>
-    <h1>Работы по веб-дизайну</h1>
-    <ul>
-      <li><a href="Witcher_horizontal_parallax/index.html">Горизонтальный <i>Parallax-effect</i></a></li>
-    </ul>
+    <div class="wrapper">
+        <header class="header">
+            <div class="logo"></div>
+            <nav class="navigation-bar">
+                <ul>
+                    <li>О Себе</li>
+                    <li>Навыки</li>
+                    <li>Проекты</li>
+                    <li>Контакты</li>
+                </ul>
+            </nav>
+        </header>
+        <main class="main">
+
+            <h1>Портфолио Фронтенд Разработчика</h1>
+                    
+            <div class="welcome">
+                <h3></h3>
+                <h2></h2>
+                <p></p>
+
+            </div>
+
+            <div class="grid">
+
+
+                <div class="grid-item about">
+                    
+                    
+                    <div class="info">
+                        <h2>Факты обо мне</h2>
+                        <ul>
+                            <li>В 2020 году я поступил в Орловский Государственный университет имени И.С Тургенева на Физико-математический факультет:</li>
+                            <li>Направление: Прикладная математика и информатика</li>
+                            <li>Профиль: Цифровые технологии в фундаментальных и прикладных исследованиях</li>
+                            <li>На втором курсе я заинтересовался веб-разработкой, а именно Фронтенд разработкой</li>
+                            <li>
+                                В данном направлении меня привлекают возможность создавать красивые HTML-страницы на основе дизайн-макетов и написание скриптов, 
+                                которые позволяет "оживить" эти страницы.
+                            </li>
+                        </ul>
+                        
+                    </div>
+                    
+                </div>
+
+
+                <div class="grid-item skills">
+                    <h2>Мои Навыки</h2>
+
+                    <div class="skill__item">HTML</div>
+                    <div class="skill__item">CSS</div>
+                    <div class="skill__item">JS</div>
+                    <div class="skill__item">React</div>
+                    <div class="skill__item">Git, GitHub</div>
+
+                    <p>Также пробовал работать с JQuery</p>
+                    <p>Имею минимальные представления о Node.js</p>
+                    <p>Владею графическим редактором Figma</p>
+
+                    <h2>Навыки Js</h2>
+                    <ul>
+                        <li>Работа с fetch API: получение данных с удаленного сервера через GET-запросы</li>
+                        <li>Методы массивов: filter, map, forEach</li>
+                        <li>Работа с прототипами</li>
+                        <li>Контекст переменной и его изменение: bind()</li>
+                        <li>Работа с DOM и событиями браузера</li>
+                        <li>LocalStorage</li>
+                        <li>Регулярные выражения</li>
+                    </ul>
+
+                    <h2>Навыки React</h2>
+                    <ul>
+                        <li>npm install, npm start, npx create-react-app</li>
+                        <li>Синтакис JSX</li>
+                        <li>React.Fragment</li>
+                        <li>Функциональный React</li>
+                        <li>Работа с React-router-dom</li>
+                        <li>Хуки: useState, useContext, useEffect</li>
+                        <li>import/export</li>
+                        <li>Работа с аудиофайлами</li>
+                    </ul>
+
+                    
+                    <h2>Работа с Git</h2>
+                    <ul>
+                        <li>git add, git commit</li>
+                        <li>CI/CD</li>
+                    </ul>
+                    <h2>Работа с GitHub</h2>
+                    <ul>
+                        <li>Создание репозитория, добавление файлов</li>
+                        <li>Добавление секретного ключа</li>
+                    </ul>
+                </div>
+                <div class="grid-item projects">
+                    <div class="project_items">
+                        <h2>Университет:</h2>
+                        <a href="https://ivantyukin.github.io/">1. Лабораторные по HTML, JS;</a>                   
+                    </div>
+                    <div class="project_items">
+                        <h2>React</h2>
+                        <a href="https://ivantyukin.github.io/react-movies/">1. База данных с фильмами;</a>
+                        <br>
+                        <a href="https://ivantyukin.github.io/TodoList/index.html">2. TodoList;</a>
+                        <br>
+                        <a href="#">3. Музыкальный плеер</a>
+                    </div>
+                    <div class="project_items">
+                        <h2>Дизайнерские фишки:</h2>
+                        <a href="https://ivantyukin.github.io/Design/Witcher_horizontal_parallax/">1. Горизонтальный Parallax-effect;</a>
+                        <div> 2.Masonry</div>
+                    </div>
+                    <div class="project-items">
+                        <h2>Сайт студии ногтевого сервиса</h2>
+                        <a href="http://f0726909.xsph.ru/nails/nails/index.html">1. Сайт</a>
+                    </div>
+                </div>
+
+
+            </div>
+
+        </main>
+        <footer class="footer">
+            <h2>Социальные сети</h2>
+            <div class="social">
+                <a href="https://github.com/IvanTyukin"><img src="./images/devicon_github.svg" alt="GithubLogo"></a>
+                <a href="https://vk.com/id678942990"><img src="./images/vk-logo.svg" alt="VkLogo"></a>
+                <a href="https://www.frontendmentor.io/profile/IvanTyukin"><img src="./images/simple-icons_frontendmentor.svg" alt=""></a>
+            </div>
+        </footer>
+    </div>
+    
+            <!-- <ul>
+              <li><a href="Witcher_horizontal_parallax/index.html">Горизонтальный <i>Parallax-effect</i></a></li>
+            </ul> -->
+
+    <script src="./js/jquery-3.7.1.min.js"></script>
+
+    <script src="./js/masonry.pkgd.min.js"></script>
+
+    <script src="./js/script.js"></script>
 </body>
 </html>
