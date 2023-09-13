@@ -86,12 +86,13 @@ footer {
     padding-bottom: 10px;
     box-shadow: 10px 10px 0 rgba(0, 0, 0, 0.5075);
     border-radius: 10px;
-    transition: transform 1s ease-in-out;
+    transition: transform .5s ease-in-out, box-shadow .5s ease-in-out;
     cursor: pointer;
 }
 
 .info:hover {
     transform: scale(1.02);
+    box-shadow: 3px 5px 0 rgba(0, 0, 0, 0.5075);
 }
 
 .grid-item::before {
