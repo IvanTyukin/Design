@@ -39,6 +39,11 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
     display: block;
+    
+}
+
+h1 {
+    font-variant: small-caps;
 }
 
 header, main {
@@ -70,13 +75,23 @@ footer {
     width: 600px;
     height: auto;
     margin: 10px;
+    
+    transition: background-color 1s ease-in-out;
+}
+
+.info {
     border: 1px solid #000;
     padding-left: 20px;
     padding-top: 10px;
     padding-bottom: 10px;
     box-shadow: 10px 10px 0 rgba(0, 0, 0, 0.5075);
     border-radius: 10px;
-    transition: background-color 1s ease-in-out;
+    transition: transform 1s ease-in-out;
+    cursor: pointer;
+}
+
+.info:hover {
+    transform: scale(1.02);
 }
 
 .grid-item::before {
